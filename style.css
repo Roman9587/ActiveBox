@@ -1,0 +1,93 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* main */
+.main{
+    width: 100%;
+    min-height: 750px;
+    background: url(./img/back/Layer_34.png);
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0 0 0;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #505268 ;
+}
+/* Navbar */
+.nav__link{
+    padding: 0 59px 0 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.75;
+}
+.nav__link:hover{
+    color: #1983c9;
+    transition: .2s linear;
+}
+/* title */
+.title{
+    max-width: 891px;
+    margin: 0 auto;
+    padding: 156px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 71px;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.subtitle{
+    max-width:912px ;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 41px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+}
+/* btn main */
+.button{
+    padding: 77px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn{
+    color: #ffffff;
+    padding: 18px 46px;
+    background-color: #e84545;
+    margin: 77px auto;
+    text-align: center;
+    border-radius: 3px;
+}
+.btn:hover{
+    box-shadow: 0 0 3px 3px #e91e1e;
+}
